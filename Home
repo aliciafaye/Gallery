@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Landing Page Website Tutorial</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!--NAVIGATION-->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+                    <span class="sr-only">Toggle Menu</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="img/w3newbie.png"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse-main">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--FIXED IMAGE-->
+    <div id="home">
+        <div class="landing-text">
+            <h3>Ryan & Alicia</h3>
+            <h1>OUTWANDERING</h1>
+            <h3>See what we've been up to</h3>
+            <a href="#" class="btn btn-default btn-lg">Recent Trips!</a>
+        </div>
+    </div>
+
+    <!--FIRST ROW-->
+    <div class="padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="img/bootstrap.png">
+                </div>
+                <div class="col-sm-6 text-center">
+                    <h2>Alaska Honeymoon Trip</h2>
+                    <h4>July 2019</h4>
+                    <p class="lead">We headed north for 5 days in Homer, Alaska for our honeymoon. We stayed in a cabin on an active floatplane base, and hiked to Grewingk glacier lake. Click the image above to see the full gallery.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--SECOND ROW-->
+    <div class="padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <h4>Father's Day on the Deschutes</h4>
+                    <h5>June 2019</h5>
+                    <p class="lead">Our annual trip to Big River campground to spend time with Ryan's dad and family. We spend a lot of time fishing for brown trout from the boat.</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <img src="img/Sass.png" class="image-responsive">
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <h4>And Less</h4>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <img src="img/Less.png" class="image-responsive">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--THIRD ROW-->
+    <div class="padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h4>Here's the cool thing about bootstrap</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                </div>
+                <div class="col-sm-6">
+                    <img src="img/bootstrap2.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--FOOTER-->
+    <footer class="container-flud text-center">
+        <div class="row">
+            <div class="col-sm-4">
+                <h3>Contact Us</h3>
+                <br />
+                <h4>Our address and contact info here</h4>
+            </div>
+            <div class="col-sm-4">
+                <h3>Connect</h3>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+            <div class="col-sm-4">
+                <img src="img/b.png" class="icon" />
+            </div>
+        </div>
+    </footer>
+
+
+
+
+</body>
+</html>
